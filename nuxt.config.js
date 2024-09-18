@@ -2,12 +2,7 @@
 export default defineNuxtConfig({
 	
 	pages: true,
-    ssr: true, 
-    target: 'static', 
-    generate: {
-		dir: 'dist', 
-		fallback: '404',
-    },
+    ssr: true
 	
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
