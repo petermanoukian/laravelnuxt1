@@ -1,1 +1,0 @@
-import{Z as n,$ as t,a0 as s}from"./C9yPyRDb.js";import{u as i}from"./CiPlFD3g.js";const d=n(async(r,u)=>{let o,a;{if(!localStorage.getItem("token"))return t("/login");const e=i();if(e.user||([o,a]=s(()=>e.fetchUser()),await o,a()),e.user.levell!==1)return r.meta&&r.meta.expectsJson?t("/forbidden"):t("/forbidden")}});export{d as default};

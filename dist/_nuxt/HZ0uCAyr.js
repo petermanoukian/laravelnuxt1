@@ -1,1 +1,0 @@
-import{k as t,l as r,r as n}from"./C9yPyRDb.js";function i(){const{$api:e}=t(),o=r().public.apiBaseUrl,a=n([]);return{taggs:a,fetchTaggsCommon:async()=>{try{const s=await e.get(`${o}/admin/tagg/common`);a.value=s.data.data}catch(s){console.error("Error fetching items:",s.response?s.response.data:s.message)}}}}export{i as u};
